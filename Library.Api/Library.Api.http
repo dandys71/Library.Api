@@ -1,0 +1,11 @@
+@Library.Api_HostAddress = https://localhost:7203
+
+
+GET {{Library.Api_HostAddress}}/api/authors
+
+###
+
+@id=1
+GET {{Library.Api_HostAddress}}/api/authors/{{id}}
+
+###
